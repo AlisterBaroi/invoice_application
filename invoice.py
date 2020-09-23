@@ -1,27 +1,47 @@
-# Pip Packages: pyinstaller, reportlab, virtualenv
 from reportlab.pdfgen import canvas
 from datetime import date
 import os
 
 
+print("Welcome to INVOICE SYSTEM \nby Alister Animesh Baroi, alister.baroi@gmail.com \n")
+
+
+def err():
+    print("Invalid input, try again")
+
+
+def home():
+    while True:
+        try:
+            home = int(input("[1] New Invoice [2] Exit: "))
+            if home == 1:
+                inputs()
+            elif home == 2:
+                exit()
+            else:
+                err()
+        except ValueError:
+            err()
+            continue
+
+
 def inputs():
-    print("Welcome to INVOICE SYSTEM \nby Alister Animesh Baroi, alister.baroi@gmail.com \n")
     # input validator
     SName = input('Enter Seller Name: ')
     while not SName:
-        print("Please input seller name")
+        err()
         SName = input('Enter Seller Name: ')
 
     # input validator
     SEmail = input('Enter Seller Email: ')
     while not SEmail:
-        print("Please input seller email")
+        err()
         SEmail = input('Enter Seller Email: ')
 
     # input validator
     Product = input('Enter Product: ')
     while not Product:
-        print("Please input product")
+        err()
         Product = input('Enter Product: ')
 
     # input validator
@@ -30,7 +50,7 @@ def inputs():
             PID = int(input('Enter Product ID: '))
             break
         except ValueError:
-            print("Please input valid product ID")
+            err()
 
     # input validator
     while True:
@@ -38,7 +58,7 @@ def inputs():
             PQnt = int(input('Enter Product Quantity: '))
             break
         except ValueError:
-            print("Please input integer value")
+            err()
 
     # input validator
     while True:
@@ -46,24 +66,24 @@ def inputs():
             PRate = round(float(input('Enter Product Price: ')), 2)
             break
         except ValueError:
-            print("Please input valid rate")
+            err()
 
     # input validator
     CName = input('Enter Customer Name: ')
     while not CName:
-        print("Please input customer name")
+        err()
         CName = input('Enter Customer Name: ')
 
     # input validator
     CAddress = input('Enter Customer Address: ')
     while not CAddress:
-        print("Please input customer address")
+        err()
         CAddress = input('Enter Customer Address: ')
 
     # input validator
     CEmail = input('Enter Customer Email: ')
     while not CEmail:
-        print("Please input customer email")
+        err()
         CEmail = input('Enter Customer Email: ')
 
     subTotal = float(round(PQnt * PRate, 2))
@@ -157,6 +177,8 @@ def incoice(SName, SEmail, Product, PID, PQnt, PRate, PTotal, Tax, subTotal, CNa
     # save & launch PDF
     pdf.save()
     os.startfile("invoice-alister.pdf")
+    print("\n\n")
+    home()
 
 
-inputs()
+home()
