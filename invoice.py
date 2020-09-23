@@ -16,6 +16,7 @@ def home():
             home = int(input("[1] New Invoice [2] Exit: "))
             if home == 1:
                 inputs()
+                break
             elif home == 2:
                 exit()
             else:
