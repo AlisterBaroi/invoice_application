@@ -13,6 +13,6 @@ This project is made mainly to showcase my skills such as input validation and e
 
 
 ### [Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/InvoiceSystem.exe) the installer to install and demo the finished executable.
-After installation, to change the company name, address, contact, and the notes and messages, go to the settings.json file in the settings folder to change the default data. 
+After installation, to change the company name, address, contact, and notes and messages, go to the settings.json file in the settings folder of the installation directory and modify the default data. 
 
 ## Enjoy
