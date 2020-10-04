@@ -12,7 +12,7 @@ This project is made mainly to showcase my skills on making desktop applications
 |            |            | OS          |
 
 
-### [Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/InvoiceSystem.exe) the installer to install and demo the finished application.
+### [Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/InvoiceSystem.exe) the installer to install and demo the finished executable.
 To change the company name, address, contact, and the notes and messages, go to the settings.json file in the settings folder to change the default data. 
 
 ## Enjoy
