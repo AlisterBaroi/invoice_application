@@ -12,6 +12,7 @@ This project is made mainly to showcase my skills on making desktop applications
 |            |            | OS          |
 
 
-[Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/InvoiceGenerator.exe) the installer to install and demo the finished application.
+### [Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/InvoiceGenerator.exe) the installer to install and demo the finished application.
+To change the company name, address, contact, and to change the note, message and footer informations, go to the settings.json file in the settings folder to change the default data. 
 
 ## Enjoy
