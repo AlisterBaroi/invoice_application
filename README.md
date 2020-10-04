@@ -8,6 +8,7 @@ This project is made mainly to showcase my skills on making desktop applications
 | Python 3   | Pyinstaller|     OS      |
 |            | Reportlab  |Pdfgen Canvas|
 |            |            | Date        |
+|            |            | JSON        |
 
 
 [Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/invoice.exe) and run the executable to demo the finished application.
