@@ -12,6 +12,6 @@ This project is made mainly to showcase my skills on making desktop applications
 |            |            | OS          |
 
 
-[Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/invoice.exe) and run the executable to demo the finished application.
+[Download](https://raw.githubusercontent.com/AlisterBaroi/invoice_application/master/dist/invoice.exe) the installer to install and demo the finished application.
 
 ## Enjoy
