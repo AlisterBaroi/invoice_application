@@ -1,6 +1,6 @@
 # invoice_application
 ### This project is made by me, Alister Animesh Baroi, who reserves the coryright of this project's source code and all other files.
-This project is made mainly to showcase my skills on making desktop applications and automate processes using python 3 and its relavant packages.
+This project is made mainly to showcase my skills such as input validation and error handeling, PDF rendering, automation of operational processes, communicating with JSON files, and making desktop terminal applications using python 3 and its relavant packages.
 ### Pachages and imports that are used in this project:
 
 | Language   |  Packages  |   Imports   |
